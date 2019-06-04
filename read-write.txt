@@ -1,3 +1,4 @@
+
 antelope
 bear
 cat
@@ -7,13 +8,16 @@ fox
 giraffe
 hyena
 iguana
+Jackal
 jaguar
+Jaguar
 kangaroo
 llama
 monkey
 ninja turtle
 octopus
 platterpus
+Python
 queen bee
 rat
 snake
