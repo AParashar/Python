@@ -8,9 +8,9 @@ def check_user(lists, user, password):
         if(element.split()[0] == user and element.split()[1] == password):
             return "Your login is successful"
 
-        elif(element.split()[0] == user and element.split()[1] != password):
+        elif(element.split()[0] == user):
             return "Incorrect password"
-            
+
         elif(element.split()[0] != user):
             if(index < len(lists) - 1):
                 pass
