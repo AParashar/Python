@@ -14,3 +14,10 @@ while(position < len(sample_list) and not found):
         print("The entered search word Exists at index {0} in the list!".format(position))
         found = True
     position = position + 1
+
+if(not found):
+    print("No such item exist in the list!")
+
+    # If no item found then add item to the list
+    sample_list.extend([search_key])
+    # print(sample_list)
